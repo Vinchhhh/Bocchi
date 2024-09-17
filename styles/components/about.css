@@ -77,7 +77,7 @@
     z-index: 0;
     align-self: center;
     transform: translateY(2.5vh);
-    background-image: url(/files/imgs/aboutbg/ikuyobg.png);
+    background-image: url(/Bocchi/files/imgs/aboutbg/ikuyobg.png);
     background-position: center -150px;
     background-size: cover;
 }
@@ -101,7 +101,7 @@
     z-index: 0;
     align-self: center;
     transform: translateY(2.5vh);
-    background-image: url(/files/imgs/aboutbg/ryoubg.png);
+    background-image: url(/Bocchi/files/imgs/aboutbg/ryoubg.png);
     background-position: center -100px;
     background-size: cover;
 }
@@ -126,7 +126,7 @@
     z-index: 0;
     align-self: center;
     transform: translateY(2.5vh);
-    background-image: url(/files/imgs/aboutbg/bocchibg.png);
+    background-image: url(/Bocchi/files/imgs/aboutbg/bocchibg.png);
     background-position: center 0px;
     background-size: cover;
 }
@@ -151,7 +151,7 @@
     z-index: 0;
     align-self: center;
     transform: translateY(2.5vh);
-    background-image: url(/files/imgs/aboutbg/nijikabg.png);
+    background-image: url(/Bocchi/files/imgs/aboutbg/nijikabg.png);
     background-position: center -100px; 
     background-size: cover;
 }
