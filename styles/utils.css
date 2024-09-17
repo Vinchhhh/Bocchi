@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:root{
+    --yellow: #ffba00; 
+    --pink: #fd558f;
+    --red: #fc0044;
+    --blue: #0070c3;
+}
+@font-face {
+    font-family: bellamy;
+    src: url(/files/fonts/Bellamy\ Signature.ttf);
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* main container */
+.container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    /* for snaping */
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+}
+.container::-webkit-scrollbar{
+    width: 15px;
+    z-index: 1001;
+}
+.container::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.container::-webkit-scrollbar-track{
+    background-color: white;
+}

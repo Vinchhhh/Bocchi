@@ -1,0 +1,11 @@
+/* gallery container */
+.gallery{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    background-color: white;
+    color: black
+}
+

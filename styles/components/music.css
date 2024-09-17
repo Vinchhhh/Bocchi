@@ -1,0 +1,8 @@
+/* music container */
+.music{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+    /* scroll-snap-align: start; */
+}  
